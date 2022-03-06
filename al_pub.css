@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    background-color: #F0F7F4;
+}
+
+header {
+    overflow-x: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    background-color: #70ABAF;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    height: 100%;
+    padding: 10px 15px;
+    box-sizing: border-box;
+}
+
+main {
+    margin-top: 70px;
+    font-size: 20px;
+    color: #333;
+}
+
+.container {
+    padding: 1em;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container2 {
+    overflow-x: auto;
+    padding: 1em;
+    margin: 0;
+    background-color: #99E1D9;
+}
+
+.container3 {
+    padding: 1em;
+    margin: 0;
+    background-color: #70ABAF;
+    text-align: center;
+}
+
+.bibtex {
+    overflow-x: auto;
+    padding: 1em;
+    margin: 0;
+    background-color: #99E1D9;
+}
+
+.heading {
+    color: #32292F;
+}
+
+.button {
+    background-color: #705D56;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.5s;
+}
+
+.button:hover {
+    background-color: #9e5c44;
+}
+
+footer p {
+    position: static;
+    bottom: 0;
+    left: 0;
+    height: 120px;
+    width: 100%;
+    text-align:center;
+    background-color: #70ABAF;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
