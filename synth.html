@@ -11,7 +11,7 @@
     
     
     <header>
-        <img class="logo" src="images/al_pub_logo.png" alt="dcode logo">
+        <!--img class="logo" src="images/al_pub_logo.png" alt="dcode logo"-->
         <img class="logo" src="images/alpha.jpg" alt="alpha">
         <img class="logo" src="images/beta.jpg" alt="beta">
         <img class="logo" src="images/gamma.jpg" alt="gamma">
@@ -41,38 +41,21 @@
             <h3 class="heading">Thank you for your interest in our research!</h3>
             <p>
                 In the spirit of open sourced research and experiment reproducibility, we offer supplemental material for our IJCAI 2022 submission. 
-                In the links below we offer sample synthetic character images produced in the project, and a zipped code repository that demonstrates
-                the utilization of Pytorch's 'simple' implementation of StyleGAN2. The code includes a bash script, setup.sh, that installs a Python 3.7 virtual 
-                environment with the necessary libraries, and a bash script, generate.sh, that demonstrates the command-line usage from our IJCAI paper. More 
-                information on the StyleGAN2 implementatoin is available <a href="https://github.com/lucidrains/stylegan2-pytorch">here</a>. Information on
-                Python virtual environments can be found <a href="https://docs.python.org/3/library/venv.html">here</a>. Additionally, the AL-PUB dataset is 
-                available at <a href="https://data.cs.mtsu.edu/al-pub/">https://data.cs.mtsu.edu/al-pub/</a>
+                In the links below we offer sample synthetic character images produced during the project, a zipped code repository that demonstrates
+                the utilization of Pytorch's 'simple' implementation of StyleGAN2, and the saved classification models with an inference demonstration Jupyter Notebook.
+
+
             </p>
             
             <h3 class="heading">StyleGAN2 Pytorch Utilization Details</h3>
             <p>
-                 
+              The generative code repository includes a bash script, setup.sh, that installs a Python 3.7 virtual environment with the necessary libraries, and a bash script, generate.sh, 
+	      that demonstrates the command-line usage from our IJCAI paper. More information on the StyleGAN2 implementatoin is available <a href="https://github.com/lucidrains/stylegan2-pytorch">here</a>. 
+	      Information on Python virtual environments can be found <a href="https://docs.python.org/3/library/venv.html">here</a>.
             </p>
-            <!--
-            <div class="bibtex">
-                
-          <pre style="font-size:12px;">@inproceedings{Swindall2021,
-	  	title={Exploring Learning Approaches for Ancient GreekCharacter Recognition with Citizen Science Data},
-	      	author={Swindall, Matthew I. and Croisdale, Gregory and  Hunter, Chase C. and Keener, Ben and Williams, Alex C. and Brusuelas, James H. 
-		and Krevans, Nita and Sellew, Melissa and Fortson, Lucy and Wallin, John F.},
-	        booktitle={2021 17th International Conference on eScience (eScience)},
-		pages={128--137},
-		organization={IEEE}
-		}
-          </pre>
-              </div>
-              -->
-            
-            
-
             <div class="container2">
                 <p>
-                    <a class="button" href="AL-SYNTH_code.zip">Code Repository</a>
+                    <a class="button" href="AL-SYNTH_code.zip">Generative Code Repository</a>
                 </p>
                 <p>
                     <a class="button" href="synthetic_images.zip">Download Synthetic Images (.zip)</a>
@@ -80,11 +63,33 @@
                 <!--p>
                     <a class="button" href="IJCAI_2022_Swindall-et-al.pdf" download>Download our IJCAI 2022 paper!</a>
                 </p-->
-                <p>
-                    <a class="button" href="mailto:mis2n@mtmail.mtsu.edu">Contact Us</a>
-                </p>
             </div>
-
+	    <h3 class="heading">Classification Models</h3>
+            <p>
+             The classification models used in this project are made available in a github repository (link below). The accompanying python code and Jupyter notebook demonstrate inferencing on our data
+	     using our pretrained models. 
+            </p>
+            <div class="container2">
+                <p>
+                    <a class="button" href="https://github.com/mis2n/AL-SNTH">Classification Github Repository</a>
+                </p>
+    
+                <p>
+                    <a class="button" href="Dataset_Augmentation_in_Papyrology_with_Generative_Models_A_Study_of_Synthetic_Ancient_Greek_Character_Images.pdf" download>Download our IJCAI 2022 paper!</a>
+                </p>
+	    </div>
+	    <h3>Check out our related work</h3>
+		<p>
+		The dataset utilized in this research is the currently unpublished AL-ALL dataset. To ensure reproducibility to the extent possible, our team has created the AL-PUB dataset which was introduce 
+		at IEEE eScience 2021. You can learn more about this effort via the links below.
+		</p>
+	    <div class="container2">
+		<p>
+		   <a class="button" href="https://data.cs.mtsu.edu/al-pub/">AL-PUB</a>
+		</p>
+		<p>
+		   <a class="button" href="mailto:mis2n@mtmail.mtsu.edu">Contact Us</a>
+	    </div>
         </div>
 
         
@@ -95,7 +100,10 @@
                 <a href="https://mtsu.edu/"><img class="logo" src="images/mtsu.png" alt="mtsu webpage"></a>
                 <a href="https://www.utk.edu/"><img class="logo" src="images/ut.png" alt="utk webpage"></a>
                 <a href="https://www.uky.edu/UKHome/"><img class="logo" src="images/uk.png" alt="uk webpage"></a>
-                
+                <a href=""><img class="logo" src="" alt="?? webpage"></a>
+                <a href=""><img class="logo" src="" alt="?? webpage"></a>
+                <a href=""><img class="logo" src="" alt="?? webpage"></a>
+                <a href=""><img class="logo" src="" alt="?? webpage"></a>
         </div>
     </footer>
 </body>
