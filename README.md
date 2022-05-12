@@ -1,6 +1,8 @@
 # alpub_site
 
 <h1>Source code for AL-PUB Dataset website https://www.data.cs.mtsu.edu/al-pub</h1>
+<h2>and</h2>
+<h1>Source code for the IJCAI-2022 supplement website https://www.data.cs.mtsu.edu/al-pub/synth.html</h1>
 
 <h2>By: Matthew I. Swindall</h2>
 
