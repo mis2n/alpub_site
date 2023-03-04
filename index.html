@@ -37,13 +37,20 @@
     <main>
         <div class="container">
             <h1 class="heading">Welcome!</h1>
-            <h3 class="heading">Thank you for your interest in the AL-PUB Dataset.</h3>
+            <h3 class="heading">Thank you for your interest in the AL-PUB Dataset (Now in Version 2).</h3>
             <p>
-                AL-PUB contains 195,683 tightly cropped images of characters from ancient Greek
+                AL-PUB_v2 contains 205,797 tightly cropped images of characters from ancient Greek
                 Papyri. The dataset was developed using volunteer crowdsourced annotations of 12,070 
                 manuscript fragments from the Oxyrhynchus Papyri collection. The annotations are a 
                 product of the Ancient Lives Project and include samples from all 24 characters in the 
-                standard Greek alphabet. AL-PUB is a subset of the currently unpublished AL-ALL Dataset. 
+                standard Greek alphabet with one noteable exception: Lunate Sigma. 
+                
+                
+                The form of Sigma most widely recognized in the Western world <b>(&#931;)</b> is typically supplanted by the Lunate Sigma <b>(&#1017;)</b> on papyrus. 
+                In our samples there are 37 images of <b>&#931;</b> and 10,151 images of <b>&#1017;</b>. It thus makes a great deal of sense to update our dataset with
+                the <b>&#1017;</b> replacing the small sample of <b>&#931;</b>. 
+                
+                Both versions of the dataset are available for download below. AL-PUB & AL-PUB_v2 are subsets of the currently unpublished AL-ALL Dataset. 
                 Roughly half of AL-ALL are from currently unpublished manuscripts and due to image rights 
                 and ongoing papyrological research cannot be made publicly available at this time. Both 
                 datasets were developed with machine learning and optical character recognition in mind
@@ -87,11 +94,13 @@
 
             <div class="container2">
                 <p>
-                    <a class="button" href="ALPUB.zip">Download ALPUB.zip</a>
+                    <a class="button" href="alpub_v2.zip">Download alpub_v2.zip (New version)</a>
                 </p>
-		<p>
-		    <a class="button" href="ALPUB.tar.gz">Download ALPUB.tar.gz</a>
-		</p>
+
+		        <p>
+                    <a class="button" href="ALPUB.zip">Download ALPUB.zip (The original version)</a>
+                </p>
+
                 <p>
                     <a class="button" href="eScience_2021_Ancient_Lives.pdf" download>Download our paper!</a>
                 </p>
